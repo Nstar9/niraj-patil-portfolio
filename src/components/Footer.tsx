@@ -18,9 +18,10 @@ const Footer = () => {
             variant="hero"
             size="xl" 
             className="group"
+            onClick={() => window.open('mailto:bnirajpatil9@gmail.com', '_blank')}
           >
             <Mail className="mr-2 h-5 w-5" />
-            niraj.patil@email.com
+            bnirajpatil9@gmail.com
           </Button>
           
           <div className="flex items-center gap-4">
@@ -62,6 +63,9 @@ const Footer = () => {
             <div className="flex items-center gap-6">
               <a href="#work" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 Work
+              </a>
+              <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                Experience
               </a>
               <a href="#about" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 About

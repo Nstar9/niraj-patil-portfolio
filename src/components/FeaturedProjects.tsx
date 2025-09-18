@@ -5,39 +5,30 @@ import { ExternalLink, TrendingUp } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "AI-Powered Recommendation Engine",
-    impact: "Increased user retention by 15% in Q3",
-    description: "Revolutionized content discovery through advanced machine learning algorithms, delivering personalized experiences at scale.",
-    tags: ["AI/ML", "Personalization", "SaaS", "Python"],
-    metrics: "+15% Retention",
+    title: "Personalized RecSys-LLM: Real-Time, Explainable Recommendation Platform",
+    impact: "+20% Pilot Engagement",
+    description: "Shipped a cloud-based recommendation MVP with LLM onboarding and explainable AI to boost user adoption and trust.",
+    tags: ["AI/ML", "LLM", "Cloud", "A/B Testing"],
+    metrics: "+20% Pilot Engagement",
     color: "from-blue-500/20 to-cyan-500/20"
   },
   {
     id: 2,
-    title: "Fintech Mobile Banking Platform",
-    impact: "Reduced customer onboarding time by 60%",
-    description: "Streamlined digital banking experience with biometric authentication and intelligent financial insights.",
-    tags: ["Fintech", "Mobile First", "Security", "UX"],
-    metrics: "-60% Onboarding Time",
+    title: "AWS-Powered Airbnb Insights Platform",
+    impact: "-80% Manual Analysis Time",
+    description: "Automated a data pipeline for 10K+ listings using AWS, and designed Tableau dashboards to enable pricing and occupancy optimization.",
+    tags: ["AWS", "Data Pipeline", "Tableau", "Data Analytics"],
+    metrics: "-80% Manual Analysis Time",
     color: "from-emerald-500/20 to-teal-500/20"
   },
   {
     id: 3,
-    title: "B2B Analytics Dashboard",
-    impact: "Generated $2M+ in additional revenue",
-    description: "Transformed complex data into actionable insights with real-time reporting and predictive analytics.",
-    tags: ["Analytics", "B2B", "Data Viz", "AWS"],
-    metrics: "$2M+ Revenue",
+    title: "Federated Healthcare Recommendation System",
+    impact: "80%+ Accuracy",
+    description: "Developed a privacy-preserving federated engine for 10K+ health records with explainable AI features to meet compliance needs.",
+    tags: ["Healthcare", "Federated Learning", "AI/ML", "Privacy"],
+    metrics: "80%+ Accuracy",
     color: "from-violet-500/20 to-purple-500/20"
-  },
-  {
-    id: 4,
-    title: "Cross-Platform E-commerce Suite",
-    impact: "Improved conversion rate by 25%",
-    description: "Unified shopping experience across web and mobile with advanced personalization and checkout optimization.",
-    tags: ["E-commerce", "Cross-Platform", "Optimization"],
-    metrics: "+25% Conversion",
-    color: "from-orange-500/20 to-red-500/20"
   }
 ];
 
@@ -52,7 +43,7 @@ const FeaturedProjects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card 
               key={project.id}

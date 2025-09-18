@@ -26,6 +26,16 @@ const Hero = () => {
                 Work
               </a>
               <a 
+                href="#experience" 
+                className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                Experience
+              </a>
+              <a 
                 href="#about" 
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
                 onClick={(e) => {
@@ -48,7 +58,7 @@ const Hero = () => {
             </div>
             <Button variant="outline" size="sm" className="hidden md:flex items-center gap-2">
               <Download size={16} />
-              Resume
+              View Resume
             </Button>
           </div>
         </div>

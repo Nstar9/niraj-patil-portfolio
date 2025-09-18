@@ -55,15 +55,10 @@ const About = () => {
               <h2 className="text-display mb-6 font-poppins">The Architect of What's Next</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a Product Manager who bridges the gap between technical possibility and user need. 
-                  With a foundation in <span className="text-primary font-medium">Mechanical Engineering</span> and 
-                  <span className="text-secondary font-medium"> Technology Management</span>, I bring both analytical rigor and creative problem-solving to product development.
+                  I'm a Product Manager driven by a fascination with how technology can solve real-world human problems. My journey led me to a Master's in <span className="text-secondary font-medium">Technology Management</span> from the University of Illinois Urbana-Champaign, where I honed my ability to bridge the gap between complex technical challenges and seamless user experiences.
                 </p>
                 <p>
-                  My approach is rooted in data-driven decision making, combining quantitative insights with qualitative user research to build products that don't just meet requirements—they create lasting impact. I've led cross-functional teams to deliver solutions that have generated millions in revenue and improved key metrics by an average of 50%.
-                </p>
-                <p>
-                  When I'm not analyzing user behavior or mapping customer journeys, you'll find me exploring the latest in AI/ML applications, diving deep into emerging technologies, or mentoring aspiring product managers.
+                  I thrive on digging into user data, crafting data-driven strategies, and collaborating with cross-functional teams to ship products that not only work but feel intuitive and essential. I'm particularly passionate about the challenges and opportunities within the <span className="text-primary font-medium">AI</span> and <span className="text-secondary font-medium">fintech</span> spaces.
                 </p>
               </div>
             </div>
