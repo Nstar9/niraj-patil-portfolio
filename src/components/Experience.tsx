@@ -5,23 +5,23 @@ const experiences = [
   {
     id: 1,
     title: "AI Product Strategy Consultant",
-    company: "Founder Institute",
+    company: "Founder Institute (Business Practicum)",
     dates: "May 2025 – Aug 2025",
-    description: "Led market research to shape GTM strategy for AI partnerships, designed a scalable partnership model, and built a revenue model estimating $5M+ in new revenue."
+    description: "• Led competitive analysis and market research to shape the go-to-market strategy for AI partnerships, positioning Founder Institute as a preferred partner for emerging AI accelerators\n• Designed a scalable partnership model after identifying 25+ high-value opportunities across higher education, healthcare, and government\n• Built a revenue model and projections estimating $5M+ in institutional revenue from new AI specialization programs, and delivered a multi-quarter implementation roadmap"
   },
   {
     id: 2,
     title: "Product Strategy Consultant",
-    company: "FACES Consulting",
+    company: "FACES Consulting, UIUC, Champaign, IL",
     dates: "Aug 2024 – Jul 2025",
-    description: "Partnered with two AI startups on GTM strategy, driving a 15% increase in pilot adoption. Delivered RICE-prioritized roadmaps and produced competitive benchmarks to support fundraising."
+    description: "• Partnered with two AI-driven startups (Cascade & DataPull) on go-to-market and launch strategy, driving 15% increase in pilot adoption across 3 cross-functional teams (50+ users)\n• Conducted stakeholder interviews and user research; delivered RICE-prioritized product roadmaps and MVP scopes that shaped founders' feature sets and onboarding process\n• Produced competitive benchmarks and actionable GTM reports in Notion, Tableau, and SQL, supporting fundraising narratives and product demos for executive buy-in"
   },
   {
     id: 3,
     title: "Product Operations Manager",
-    company: "Flora Pharmaceuticals",
+    company: "Flora Pharmaceuticals, Mumbai, India",
     dates: "Nov 2023 – May 2024",
-    description: "Launched operational dashboards reducing downtime by 10%. Standardized compliance workflows, cutting reporting delays by 20%."
+    description: "• Launched operational dashboards that reduced downtime by 10%, directly improving production KPIs and efficiency tracking\n• Standardized compliance workflows across 3 departments, cutting reporting delays by 20% and enabling faster root-cause analysis; introduced daily standups and workflow tracking to improve cross-team execution"
   }
 ];
 
@@ -71,9 +71,9 @@ const Experience = () => {
                       </div>
                     </div>
                     
-                    <p className="text-muted-foreground leading-relaxed">
+                    <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
                       {exp.description}
-                    </p>
+                    </div>
                   </CardContent>
                 </Card>
               </div>

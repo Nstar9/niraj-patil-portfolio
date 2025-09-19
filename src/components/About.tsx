@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Code, Database, Target, Users, Zap } from "lucide-react";
-import nirajHeadshot from "@/assets/niraj-headshot.jpg";
+import nirajGraduation from "@/assets/niraj-graduation.jpg";
 
 const skills = [
   { name: "Product Strategy", icon: Target, description: "Strategic roadmapping and market positioning" },
@@ -22,13 +22,13 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-2xl overflow-hidden shadow-glow bg-gradient-primary">
                 <img 
-                  src={nirajHeadshot} 
+                  src={nirajGraduation} 
                   alt="Niraj Patil - Product Manager"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-surface rounded-xl p-4 border border-border shadow-elegant">
-                <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="text-2xl font-bold text-primary">2+</div>
                 <div className="text-sm text-muted-foreground">Years Building Products</div>
               </div>
             </div>

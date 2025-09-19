@@ -25,9 +25,25 @@ const Footer = () => {
           </Button>
           
           <div className="flex items-center gap-4">
-            <Button variant="outline" size="xl" className="border-border hover:border-primary/50">
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="border-border hover:border-primary/50"
+              onClick={() => window.open('https://www.linkedin.com/in/nirajpatil01/', '_blank')}
+            >
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
+              <ExternalLink className="ml-2 h-4 w-4" />
+            </Button>
+            
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="border-border hover:border-primary/50"
+              onClick={() => window.open('https://github.com/Nstar9', '_blank')}
+            >
+              <Github className="mr-2 h-5 w-5" />
+              GitHub
               <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
             
@@ -35,22 +51,6 @@ const Footer = () => {
               <Download className="mr-2 h-5 w-5" />
               Resume
             </Button>
-          </div>
-        </div>
-
-        {/* Quick Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 text-center">
-          <div className="space-y-2">
-            <div className="text-3xl font-bold text-primary">24h</div>
-            <div className="text-sm text-muted-foreground">Typical Response Time</div>
-          </div>
-          <div className="space-y-2">
-            <div className="text-3xl font-bold text-secondary">Remote</div>
-            <div className="text-sm text-muted-foreground">Open to Global Opportunities</div>
-          </div>
-          <div className="space-y-2">
-            <div className="text-3xl font-bold text-primary">MAANG</div>
-            <div className="text-sm text-muted-foreground">Target Companies</div>
           </div>
         </div>
 
@@ -66,6 +66,9 @@ const Footer = () => {
               </a>
               <a href="#experience" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 Experience
+              </a>
+              <a href="#education" className="text-muted-foreground hover:text-primary transition-colors duration-300">
+                Education
               </a>
               <a href="#about" className="text-muted-foreground hover:text-primary transition-colors duration-300">
                 About

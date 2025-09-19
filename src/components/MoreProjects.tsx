@@ -6,15 +6,27 @@ import { ExternalLink, Github } from "lucide-react";
 const moreProjects = [
   {
     id: 1,
-    title: "Project Title 4",
-    description: "Brief description of your additional project showcasing technical expertise.",
-    githubLink: "#"
+    title: "Smart Analytics Dashboard",
+    description: "Built real-time analytics platform with predictive insights.",
+    githubLink: "https://github.com/Nstar9/analytics-dashboard"
   },
   {
     id: 2,
-    title: "Project Title 5", 
-    description: "Another project demonstrating your product development and technical skills.",
-    githubLink: "#"
+    title: "AI-Powered Content Generator",
+    description: "Developed automated content creation system using NLP.",
+    githubLink: "https://github.com/Nstar9/ai-content-generator"
+  },
+  {
+    id: 3,
+    title: "Product Roadmap Optimizer",
+    description: "Created RICE-based prioritization tool for product teams.",
+    githubLink: "https://github.com/Nstar9/roadmap-optimizer"
+  },
+  {
+    id: 4,
+    title: "User Feedback Analytics Engine",
+    description: "Built sentiment analysis system for customer feedback processing.",
+    githubLink: "https://github.com/Nstar9/feedback-analytics"
   }
 ];
 

@@ -5,11 +5,11 @@ import { ExternalLink, TrendingUp } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Personalized RecSys-LLM: Real-Time, Explainable Recommendation Platform",
-    impact: "+20% Pilot Engagement",
-    description: "Shipped a cloud-based recommendation MVP with LLM onboarding and explainable AI to boost user adoption and trust.",
-    tags: ["AI/ML", "LLM", "Cloud", "A/B Testing"],
-    metrics: "+20% Pilot Engagement",
+    title: "AI Onboarding Copilot",
+    impact: "-50% Repetitive Tickets",
+    description: "A full-cycle product plan for an AI assistant designed to automate new hire provisioning, accelerate productivity, and slash repetitive HR/IT support tickets.",
+    tags: ["Product Strategy", "PRD", "AI/ML", "Automation"],
+    metrics: "-50% Repetitive Tickets",
     color: "from-blue-500/20 to-cyan-500/20"
   },
   {
@@ -29,6 +29,15 @@ const projects = [
     tags: ["Healthcare", "Federated Learning", "AI/ML", "Privacy"],
     metrics: "80%+ Accuracy",
     color: "from-violet-500/20 to-purple-500/20"
+  },
+  {
+    id: 4,
+    title: "Personalized RecSys-LLM Platform",
+    impact: "+20% Pilot Engagement",
+    description: "Shipped a cloud-based recommendation MVP with LLM onboarding and explainable AI to boost user adoption and trust.",
+    tags: ["AI/ML", "LLM", "Cloud", "A/B Testing"],
+    metrics: "+20% Pilot Engagement",
+    color: "from-emerald-500/20 to-teal-500/20"
   }
 ];
 
@@ -43,7 +52,7 @@ const FeaturedProjects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
             <Card 
               key={project.id}
