@@ -78,7 +78,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-hero mb-6 bg-gradient-to-r from-foreground via-primary to-secondary bg-clip-text text-transparent">
-            NIRAJ PATIL
+            Niraj Patil
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed font-inter">
             Crafting user-centric products that drive business impact at the intersection of 

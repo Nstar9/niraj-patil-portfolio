@@ -6,27 +6,27 @@ import { ExternalLink, Github } from "lucide-react";
 const moreProjects = [
   {
     id: 1,
-    title: "Smart Analytics Dashboard",
-    description: "Built real-time analytics platform with predictive insights.",
-    githubLink: "https://github.com/Nstar9/analytics-dashboard"
+    title: "Pairs Trading Quant Research",
+    description: "An implementation of a Statistical Arbitrage pairs trading strategy, backtesting on 20 years of US tech stock data.",
+    githubLink: "https://github.com/Nstar9/Pairs-Trading-Quant-Research"
   },
   {
     id: 2,
-    title: "AI-Powered Content Generator",
-    description: "Developed automated content creation system using NLP.",
-    githubLink: "https://github.com/Nstar9/ai-content-generator"
+    title: "Socially Responsible Investment (SRI) Score",
+    description: "A product management project to develop a socially responsible investment score and filtering tool.",
+    githubLink: "https://www.notion.so/Developing-a-Socially-Responsible-Investment-SRI-Score-and-Filter-A-Product-Management-project-1416c5ae56df8000a5dbc93c12ac36d6"
   },
   {
     id: 3,
-    title: "Product Roadmap Optimizer",
-    description: "Created RICE-based prioritization tool for product teams.",
-    githubLink: "https://github.com/Nstar9/roadmap-optimizer"
+    title: "AlphaForge-ML-Stock-Predictor",
+    description: "A complete ML pipeline that predicts next-day stock prices and visualizes the predictions using Random Forest and XGBoost.",
+    githubLink: "https://github.com/Nstar9/AlphaForge-ML-Stock-Predictor"
   },
   {
     id: 4,
-    title: "User Feedback Analytics Engine",
-    description: "Built sentiment analysis system for customer feedback processing.",
-    githubLink: "https://github.com/Nstar9/feedback-analytics"
+    title: "EdTech MVP (ReadLight.net)",
+    description: "Launched a blog-based MVP delivering simplified book reviews and explainers, gaining experience in user engagement and product iteration.",
+    githubLink: "#"
   }
 ];
 

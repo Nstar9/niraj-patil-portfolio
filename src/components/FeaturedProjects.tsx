@@ -10,7 +10,8 @@ const projects = [
     description: "A full-cycle product plan for an AI assistant designed to automate new hire provisioning, accelerate productivity, and slash repetitive HR/IT support tickets.",
     tags: ["Product Strategy", "PRD", "AI/ML", "Automation"],
     metrics: "-50% Repetitive Tickets",
-    color: "from-blue-500/20 to-cyan-500/20"
+    color: "from-blue-500/20 to-cyan-500/20",
+    link: "https://file.notion.so/f/f/7d99ee91-4e00-479a-9b84-7eb65b01a1e1/f9cf9ada-68d8-43b4-b728-2b44a410269a/AI_Onboarding_Copilot_Niraj_Patil_PM.pdf?table=block&id=2736c5ae-56df-804e-82ec-fdfa5a631e06&spaceId=7d99ee91-4e00-479a-9b84-7eb65b01a1e1&expirationTimestamp=1758348000000&signature=MmEqINJobf4rJjx44rWuMoxdbhHyb1HqbOaTBeeWwU4&downloadName=AI_Onboarding_Copilot_Niraj_Patil_PM.pdf"
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ const projects = [
     description: "Automated a data pipeline for 10K+ listings using AWS, and designed Tableau dashboards to enable pricing and occupancy optimization.",
     tags: ["AWS", "Data Pipeline", "Tableau", "Data Analytics"],
     metrics: "-80% Manual Analysis Time",
-    color: "from-emerald-500/20 to-teal-500/20"
+    color: "from-emerald-500/20 to-teal-500/20",
+    link: "https://github.com/Nstar9/AWS-Powered-Airbnb-Insights-Platform"
   },
   {
     id: 3,
@@ -28,7 +30,8 @@ const projects = [
     description: "Developed a privacy-preserving federated engine for 10K+ health records with explainable AI features to meet compliance needs.",
     tags: ["Healthcare", "Federated Learning", "AI/ML", "Privacy"],
     metrics: "80%+ Accuracy",
-    color: "from-violet-500/20 to-purple-500/20"
+    color: "from-violet-500/20 to-purple-500/20",
+    link: "https://github.com/Nstar9/Federated-Healthcare-Recommendation-System"
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const projects = [
     description: "Shipped a cloud-based recommendation MVP with LLM onboarding and explainable AI to boost user adoption and trust.",
     tags: ["AI/ML", "LLM", "Cloud", "A/B Testing"],
     metrics: "+20% Pilot Engagement",
-    color: "from-emerald-500/20 to-teal-500/20"
+    color: "from-emerald-500/20 to-teal-500/20",
+    link: "https://github.com/Nstar9/Personalized-RecSys-LLM"
   }
 ];
 
@@ -58,6 +62,7 @@ const FeaturedProjects = () => {
               key={project.id}
               className="group relative overflow-hidden bg-gradient-to-br from-card to-surface border-border/50 hover-lift hover-glow cursor-pointer transition-all duration-500"
               style={{ animationDelay: `${index * 0.1}s` }}
+              onClick={() => window.open(project.link, '_blank')}
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
               
