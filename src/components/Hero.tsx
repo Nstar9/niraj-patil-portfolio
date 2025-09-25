@@ -66,7 +66,12 @@ const Hero = () => {
                 Contact
               </a>
             </div>
-            <Button variant="outline" size="sm" className="hidden md:flex items-center gap-2">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              className="hidden md:flex items-center gap-2"
+              onClick={() => window.open('/Niraj_Patil_Resume.pdf', '_blank')}
+            >
               <Download size={16} />
               View Resume
             </Button>
