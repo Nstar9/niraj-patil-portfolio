@@ -47,7 +47,12 @@ const Footer = () => {
               <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
             
-            <Button variant="outline" size="xl" className="border-border hover:border-primary/50">
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="border-border hover:border-primary/50"
+              onClick={() => window.open('/Niraj_Patil_Resume.pdf', '_blank')}
+            >
               <Download className="mr-2 h-5 w-5" />
               Resume
             </Button>
