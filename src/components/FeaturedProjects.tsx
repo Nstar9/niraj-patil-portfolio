@@ -110,7 +110,10 @@ const FeaturedProjects = () => {
           <p className="text-muted-foreground mb-4">
             Want to dive deeper into my product strategy and process?
           </p>
-          <div className="inline-flex items-center gap-2 text-primary hover:text-primary-glow transition-colors duration-300 cursor-pointer">
+          <div 
+            className="inline-flex items-center gap-2 text-primary hover:text-primary-glow transition-colors duration-300 cursor-pointer"
+            onClick={() => window.open('https://living-sink-0dd.notion.site/Niraj-s-Product-Case-Studies-2736c5ae56df802b8f37f5a9b0a5c497', '_blank')}
+          >
             <span className="font-medium">View detailed case studies</span>
             <ExternalLink size={16} />
           </div>
