@@ -16,7 +16,7 @@ const ZenoHero = () => {
   return (
     <>
       {/* SEO Title Section */}
-      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section id="flagship-project" className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center space-y-4 animate-fade-in-up">
           <Badge className="mb-4 bg-primary/20 text-primary border-primary/30 hover:bg-primary/30">
             <Sparkles className="w-3 h-3 mr-2" />
@@ -31,7 +31,7 @@ const ZenoHero = () => {
         </div>
       </section>
 
-      <section className="relative py-20 overflow-hidden bg-gradient-to-br from-surface via-card to-background">
+      <section className="relative py-20 overflow-hidden bg-card/50 backdrop-blur-sm">
         {/* Subtle Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
@@ -125,18 +125,12 @@ const ZenoHero = () => {
                 ))}
               </div>
 
-              {/* CTA Buttons */}
+              {/* CTA Button */}
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground font-semibold shadow-glow hover:shadow-glow-hover" asChild>
                   <a href="https://getzeno.io" target="_blank" rel="noopener noreferrer">
                     View Live Product
                     <ExternalLink className="ml-2 w-4 h-4" />
-                  </a>
-                </Button>
-                <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10" asChild>
-                  <a href="#zeno-case-study">
-                    Read Full Case Study
-                    <ChevronDown className="ml-2 w-4 h-4" />
                   </a>
                 </Button>
               </div>
@@ -187,19 +181,21 @@ const ZenoHero = () => {
       </section>
 
       {/* Full Case Study Section */}
-      <section id="zeno-case-study" className="py-20 bg-gradient-to-b from-background via-surface to-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="zeno-case-study" className="pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="mt-12">
           <Collapsible>
-            <CollapsibleTrigger asChild>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="w-full max-w-md mx-auto flex items-center justify-between bg-card/80 backdrop-blur-sm border-primary/30 hover:bg-card hover:border-primary/50 hover:shadow-glow text-lg py-6 group"
-              >
-                <span className="font-semibold">Full Case Study</span>
-                <ChevronDown className="w-5 h-5 transition-transform duration-300 group-data-[state=open]:rotate-180" />
-              </Button>
-            </CollapsibleTrigger>
+            <div className="flex justify-center mb-8">
+              <CollapsibleTrigger asChild>
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                  className="bg-card/80 backdrop-blur-sm border-primary/30 hover:bg-card hover:border-primary/50 hover:shadow-glow text-lg py-6 px-8 group"
+                >
+                  <span className="font-semibold">Read Full Case Study</span>
+                  <ChevronDown className="w-5 h-5 ml-2 transition-transform duration-300 group-data-[state=open]:rotate-180" />
+                </Button>
+              </CollapsibleTrigger>
+            </div>
 
             <CollapsibleContent className="mt-12 space-y-16 animate-fade-in-up">
               {/* Section 1: Discovery & Strategy */}
