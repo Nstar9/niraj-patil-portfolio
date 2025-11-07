@@ -79,25 +79,6 @@ const ZenoHero = () => {
                 </p>
               </Card>
 
-              {/* Key Metrics */}
-              <div className="grid grid-cols-3 gap-4">
-                <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
-                  <TrendingUp className="w-8 h-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
-                  <div className="text-3xl font-bold text-foreground">90%+</div>
-                  <div className="text-sm text-muted-foreground">AI Receipt Extraction</div>
-                </Card>
-                <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
-                  <Users className="w-8 h-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
-                  <div className="text-3xl font-bold text-foreground">1,000+</div>
-                  <div className="text-sm text-muted-foreground">Built for Scale</div>
-                </Card>
-                <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
-                  <Clock className="w-8 h-8 text-primary mb-3 group-hover:scale-110 transition-transform" />
-                  <div className="text-3xl font-bold text-foreground">8 Weeks</div>
-                  <div className="text-sm text-muted-foreground">Concept to Beta</div>
-                </Card>
-              </div>
-
               {/* My Role */}
               <Card className="p-6 bg-card/50 backdrop-blur-sm border-border/50 space-y-4">
                 <h3 className="text-lg font-semibold text-primary uppercase tracking-wide">My Role</h3>
@@ -125,7 +106,7 @@ const ZenoHero = () => {
                 ))}
               </div>
 
-              {/* CTA Button */}
+              {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground font-semibold shadow-glow hover:shadow-glow-hover" asChild>
                   <a href="https://getzeno.io" target="_blank" rel="noopener noreferrer">
@@ -133,11 +114,17 @@ const ZenoHero = () => {
                     <ExternalLink className="ml-2 w-4 h-4" />
                   </a>
                 </Button>
+                <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10" asChild>
+                  <a href="#zeno-case-study">
+                    Read Full Case Study
+                    <ChevronDown className="ml-2 w-4 h-4" />
+                  </a>
+                </Button>
               </div>
             </div>
 
             {/* RIGHT COLUMN (40%) - Product Screenshots */}
-            <div className="lg:col-span-2 space-y-4">
+            <div className="lg:col-span-2 space-y-6">
               <Card className="relative overflow-hidden bg-card/80 backdrop-blur-md border-primary/20 shadow-elegant hover:shadow-glow-hover transition-all duration-500 group p-2">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <img 
@@ -175,6 +162,25 @@ const ZenoHero = () => {
               <p className="text-center text-sm text-muted-foreground">
                 {screenshotTitles[currentScreenshot]}
               </p>
+
+              {/* Key Metrics */}
+              <div className="grid grid-cols-3 gap-3">
+                <Card className="p-4 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
+                  <TrendingUp className="w-6 h-6 text-primary mb-2 group-hover:scale-110 transition-transform" />
+                  <div className="text-2xl font-bold text-foreground">90%+</div>
+                  <div className="text-xs text-muted-foreground">AI Receipt Extraction</div>
+                </Card>
+                <Card className="p-4 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
+                  <Users className="w-6 h-6 text-primary mb-2 group-hover:scale-110 transition-transform" />
+                  <div className="text-2xl font-bold text-foreground">1,000+</div>
+                  <div className="text-xs text-muted-foreground">Built for Scale</div>
+                </Card>
+                <Card className="p-4 bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary/40 hover:shadow-glow transition-all group">
+                  <Clock className="w-6 h-6 text-primary mb-2 group-hover:scale-110 transition-transform" />
+                  <div className="text-2xl font-bold text-foreground">8 Weeks</div>
+                  <div className="text-xs text-muted-foreground">Concept to Beta</div>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
