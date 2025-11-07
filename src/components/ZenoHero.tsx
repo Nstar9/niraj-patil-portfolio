@@ -106,18 +106,12 @@ const ZenoHero = () => {
                 ))}
               </div>
 
-              {/* CTA Buttons */}
+              {/* CTA Button */}
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground font-semibold shadow-glow hover:shadow-glow-hover" asChild>
                   <a href="https://getzeno.io" target="_blank" rel="noopener noreferrer">
                     View Live Product
                     <ExternalLink className="ml-2 w-4 h-4" />
-                  </a>
-                </Button>
-                <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10" asChild>
-                  <a href="#zeno-case-study">
-                    Read Full Case Study
-                    <ChevronDown className="ml-2 w-4 h-4" />
                   </a>
                 </Button>
               </div>
