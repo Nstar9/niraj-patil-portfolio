@@ -28,7 +28,7 @@ const About = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-surface rounded-xl p-4 border border-border shadow-elegant">
-                <div className="text-2xl font-bold text-primary">2+</div>
+                <div className="text-2xl font-bold text-primary">3+</div>
                 <div className="text-sm text-muted-foreground">Years Building Products</div>
               </div>
             </div>
