@@ -4,6 +4,16 @@ import { ExternalLink, TrendingUp } from "lucide-react";
 
 const projects = [
   {
+    id: 0,
+    title: "HawkAI — Autonomous Entity Intelligence Agent",
+    impact: "Analyst-grade reports in <90s",
+    description: "Defined and shipped a full KYC/AML intelligence product solo in 25 days — from problem framing and architecture to deployment — generating analyst-grade risk reports in under 90 seconds. Entered Google Cloud Agent Hackathon competing against 10k+ teams.",
+    tags: ["FastAPI", "Next.js", "Gemini 2.0", "MCP", "MongoDB Atlas"],
+    metrics: "Shipped solo in 25 days",
+    color: "from-amber-500/20 to-orange-500/20",
+    link: "#"
+  },
+  {
     id: 1,
     title: "AI Onboarding Copilot",
     impact: "-50% Repetitive Tickets",
@@ -13,6 +23,7 @@ const projects = [
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://living-sink-0dd.notion.site/AI-Onboarding-Copilot-2736c5ae56df809f8c04d7cd475f6faa"
   },
+
   {
     id: 2,
     title: "Personalized RecSys-LLM Platform",
