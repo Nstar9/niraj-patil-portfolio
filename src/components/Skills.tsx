@@ -1,27 +1,72 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Code, Award } from "lucide-react";
+import { Target, BarChart3, Code, Users } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Product",
+    title: "Product Management",
     icon: Target,
-    skills: ["Roadmapping", "MVP Design", "RICE", "GTM", "A/B Testing", "Stakeholder Mgmt", "User Research"],
+    skills: [
+      "Roadmap Planning",
+      "Backlog Prioritization",
+      "PRD & User Story Writing",
+      "Sprint Planning",
+      "Acceptance Criteria",
+      "OKRs",
+      "Product Positioning",
+      "GTM Strategy",
+      "Jira",
+      "Agile/Scrum"
+    ],
     color: "from-blue-500/20 to-cyan-500/20"
   },
   {
-    title: "Technical", 
-    icon: Code,
-    skills: ["Python", "SQL", "Tableau", "Pandas", "AWS (EC2, S3, Lambda, Glue, Athena)", "Data Pipelines"],
+    title: "Data Science & Analytics",
+    icon: BarChart3,
+    skills: [
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "SQL",
+      "Statistical Analysis",
+      "Machine Learning (Random Forest, XGBoost)",
+      "A/B Testing",
+      "Feature Engineering",
+      "Time-Series Modeling",
+      "Causal Inference",
+      "Tableau"
+    ],
     color: "from-emerald-500/20 to-teal-500/20"
   },
   {
-    title: "Tools & Certs",
-    icon: Award,
-    skills: ["Jira", "Notion", "Figma", "GitHub", "IBM AI Product Manager (2025)", "Agile (2024)"],
+    title: "Engineering & Cloud",
+    icon: Code,
+    skills: [
+      "AWS (S3, Lambda, Glue/PySpark, Athena)",
+      "Google Cloud",
+      "REST APIs",
+      "Flask",
+      "PostgreSQL",
+      "React",
+      "ETL Pipelines",
+      "GenAI/LLM Integration (Claude API, Gemini)",
+      "CI/CD (GitHub Actions)"
+    ],
     color: "from-violet-500/20 to-purple-500/20"
+  },
+  {
+    title: "Consulting & Leadership",
+    icon: Users,
+    skills: [
+      "Technical Discovery",
+      "Requirements Gathering",
+      "Stakeholder Management",
+      "Solution Architecture",
+      "Feasibility Analysis",
+      "Cross-functional Collaboration"
+    ],
+    color: "from-amber-500/20 to-orange-500/20"
   }
 ];
+
 
 const Skills = () => {
   return (
@@ -34,7 +79,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skillCategories.map((category, index) => (
             <Card 
               key={category.title}
