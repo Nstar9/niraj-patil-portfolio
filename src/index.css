@@ -8,70 +8,69 @@
 
 @layer base {
   :root {
-    /* Dark Mode - Primary Theme */
-    --background: 215 28% 7%;        /* Deep charcoal #111827 */
-    --foreground: 0 0% 98%;          /* Near white */
+    /* Light Mode - Primary Theme */
+    --background: 210 20% 98%;        /* Soft off-white #f5f7fa */
+    --foreground: 222 20% 13%;        /* Dark slate #1a1d29 */
     
-    --surface: 217 28% 9%;           /* Elevated surface */
-    --surface-elevated: 217 28% 12%; /* Higher elevation */
+    --surface: 0 0% 100%;             /* White surface */
+    --surface-elevated: 210 20% 96%;  /* Slightly elevated */
     
     /* Electric Blue - Primary Accent */
-    --primary: 199 89% 48%;          /* Electric blue #0ea5e9 */
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 199 89% 60%;     /* Lighter blue for glows */
+    --primary: 199 89% 48%;           /* Electric blue */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 199 89% 60%;
     
     /* Teal - Secondary Accent */
-    --secondary: 170 76% 32%;        /* Vibrant teal */
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 170 76% 36%;
+    --secondary-foreground: 0 0% 100%;
     
     /* Neutral Greys */
-    --muted: 215 25% 15%;            /* Subtle grey backgrounds */
-    --muted-foreground: 215 15% 65%; /* Secondary text */
+    --muted: 210 20% 94%;             /* Soft grey */
+    --muted-foreground: 220 9% 46%;   /* #6b7280 */
     
-    --accent: 215 25% 20%;           /* Interactive elements */
-    --accent-foreground: 0 0% 98%;
+    --accent: 210 20% 94%;
+    --accent-foreground: 222 20% 13%;
     
-    --border: 215 25% 18%;           /* Subtle borders */
-    --input: 215 25% 12%;            /* Input backgrounds */
-    --ring: 199 89% 48%;             /* Focus rings */
+    --border: 220 13% 91%;            /* #e5e7eb */
+    --input: 220 13% 91%;
+    --ring: 199 89% 48%;
     
     /* Cards & Surfaces */
-    --card: 217 28% 9%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 20% 13%;
     
-    --popover: 217 28% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 20% 13%;
     
     /* Status Colors */
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
     
-    --success: 142 71% 45%;          /* Success green */
-    --warning: 38 92% 50%;           /* Warning orange */
+    --success: 142 71% 40%;
+    --warning: 38 92% 50%;
     
     /* Design System Additions */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-surface: linear-gradient(135deg, hsl(var(--surface)), hsl(var(--surface-elevated)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--surface)) 100%);
     
-    /* Shadows & Glows */
-    --shadow-sm: 0 2px 4px -1px hsl(var(--background) / 0.3);
-    --shadow-md: 0 10px 25px -3px hsl(var(--background) / 0.5);
-    --shadow-lg: 0 25px 50px -12px hsl(var(--background) / 0.7);
-    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
-    --shadow-glow-hover: 0 0 60px hsl(var(--primary) / 0.4);
+    /* Shadows - soft elevation for light theme */
+    --shadow-sm: 0 1px 2px 0 hsl(220 13% 60% / 0.08);
+    --shadow-md: 0 4px 12px -2px hsl(220 13% 40% / 0.10);
+    --shadow-lg: 0 20px 40px -12px hsl(220 13% 30% / 0.18);
+    --shadow-glow: 0 8px 24px -6px hsl(var(--primary) / 0.25);
+    --shadow-glow-hover: 0 12px 32px -6px hsl(var(--primary) / 0.32);
     
     /* Typography Scale */
-    --text-hero: 4rem;       /* 64px */
-    --text-display: 3rem;    /* 48px */
-    --text-heading: 2rem;    /* 32px */
-    --text-title: 1.5rem;    /* 24px */
-    --text-body: 1rem;       /* 16px */
-    --text-small: 0.875rem;  /* 14px */
+    --text-hero: 4rem;
+    --text-display: 3rem;
+    --text-heading: 2rem;
+    --text-title: 1.5rem;
+    --text-body: 1rem;
+    --text-small: 0.875rem;
     
     --radius: 0.75rem;
     
-    /* Animation Timing */
     --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -90,9 +89,10 @@
   body {
     @apply bg-background text-foreground antialiased;
     background-image: 
-      radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.05) 0%, transparent 50%),
-      radial-gradient(circle at 75% 75%, hsl(var(--secondary) / 0.05) 0%, transparent 50%);
+      radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.04) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(var(--secondary) / 0.04) 0%, transparent 50%);
   }
+
   
   /* Typography Styles */
   .text-hero {
