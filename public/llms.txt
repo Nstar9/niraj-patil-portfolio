@@ -1,0 +1,13 @@
+# Niraj Patil — Product Manager Portfolio
+
+> Portfolio of Niraj Patil, an AI Product Manager building data-driven products with quantified impact across AI, SaaS, and consulting.
+
+Niraj Patil is an AI Product Manager and founder. This site showcases featured work (HawkAI, Zeno, AI Onboarding Copilot, Personalized RecSys-LLM, AWS Airbnb Insights, Federated Healthcare Recsys), career experience, skills across product, data science, engineering, and consulting, plus a downloadable resume.
+
+## Pages
+
+- [Home](/): Hero, featured work, experience, skills, education, and contact in a single-page portfolio.
+
+## Resources
+
+- [Resume (PDF)](/Niraj_Patil_Resume.pdf): Latest resume covering product, AI, and engineering experience.
