@@ -26,16 +26,6 @@ const Hero = () => {
                 Work
               </a>
               <a 
-                href="#flagship-project" 
-                className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById('flagship-project')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-              >
-                Flagship Project
-              </a>
-              <a 
                 href="#experience" 
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
                 onClick={(e) => {

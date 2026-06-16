@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import ZenoHero from "@/components/ZenoHero";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import MoreProjects from "@/components/MoreProjects";
 import Experience from "@/components/Experience";
@@ -12,7 +11,6 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      <ZenoHero />
       <FeaturedProjects />
       <MoreProjects />
       <Experience />
