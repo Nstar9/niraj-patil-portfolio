@@ -3,6 +3,13 @@ import { Building, Calendar } from "lucide-react";
 
 const experiences = [
   {
+    id: 0,
+    title: "AI Product Manager",
+    company: "Kahana, Remote, USA",
+    dates: "May 2026 – Present",
+    description: "• Owned end-to-end product launch and Go-To-Market strategy for an AI-integrated browser — defined product positioning, success metrics, and launch sequencing that drove initial user adoption across target segments\n• Led cross-functional feature development by translating complex user needs and AI capabilities into prioritized engineering requirements, managing trade-offs between scope, timeline, and quality across engineering and design"
+  },
+  {
     id: 1,
     title: "Founder & Technical Lead",
     company: "Zeno (getzeno.io), Chicago, IL",
@@ -11,26 +18,34 @@ const experiences = [
   },
   {
     id: 2,
+    title: "Product Manager",
+    company: "Saayam for All, Remote, USA",
+    dates: "Oct 2025 – Present",
+    description: "• Defined full MVP product scope across 15+ service categories (housing, healthcare, finance, legal) — wrote detailed use case specs, user flows, and safety guardrails that were adopted directly by engineering as the build foundation and as ground-truth data for downstream ML model training\n• Led end-to-end requirements for volunteer geolocation feature: conducted user research with disaster relief coordinators, translated findings into GeoSpatial API integration specs, and managed engineering trade-offs across competing priorities from stakeholders"
+  },
+  {
+    id: 3,
     title: "Strategy Consultant",
     company: "Founder Institute (Internship Practicum)",
     dates: "May 2025 – Aug 2025",
     description: "• Identified a $5M+ revenue opportunity across 25+ institutional targets; delivered a strategic feasibility roadmap that prioritized 3 high-potential pilot programs for executive review within 60 days\n• Uncovered an underserved $108B academic R&D market segment, providing the data-driven justification to redefine competitive positioning against major industry players\n• Engineered an automated financial model and evaluation framework for institutional partnerships, increasing assessment efficiency by 40% through streamlined data-driven workflows"
   },
   {
-    id: 3,
+    id: 4,
     title: "Senior Consultant",
     company: "FACES Consulting, UIUC, Champaign, IL",
     dates: "Aug 2024 – Jul 2025",
     description: "• Drove 15% pilot adoption across 50+ users within 90-day trial by designing GTM strategy and tiered pricing model for 2 AI startups\n• Unlocked $8B+ market opportunity by analyzing 8 competitors; led founder to pivot GTM strategy and secure commitments from 5+ pilot partners within 60 days\n• Engineered a $200K ARR revenue model featuring unit economics analysis to support seed fundraising; adopted as the firm-wide deliverable template now used across 10+ client engagements"
   },
   {
-    id: 4,
+    id: 5,
     title: "Business Operations Consultant",
     company: "Flora Pharmaceuticals, Mumbai, India",
     dates: "Nov 2023 – May 2024",
     description: "• Reduced production downtime by 10% ($20K annual savings) by designing real-time operational dashboards adopted across 3 departments within 50 days\n• Cut reporting delays by 25% by leading cross-departmental process reengineering, ensuring continuous audit readiness for complex regulatory submissions and mitigating operational risks\n• Established operational cadence (daily standups, workflow tracking) now used company-wide by 50+ employees, reducing project delivery delays by 20%"
   }
 ];
+
 
 const Experience = () => {
   return (
