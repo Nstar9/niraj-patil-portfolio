@@ -11,7 +11,7 @@ const projects = [
     tags: ["FastAPI", "Next.js", "Gemini 2.0", "MCP", "MongoDB Atlas"],
     metrics: "Shipped solo in 25 days",
     color: "from-amber-500/20 to-orange-500/20",
-    link: "#"
+    link: "https://github.com/Nstar9/HawkAI"
   },
   {
     id: 1,
