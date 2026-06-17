@@ -53,6 +53,16 @@ const projects = [
     metrics: "80%+ Accuracy",
     color: "from-violet-500/20 to-purple-500/20",
     link: "https://github.com/Nstar9/Federated-Healthcare-Recommendation-System"
+  },
+  {
+    id: 5,
+    title: "AlphaForge — ML-Powered Financial Forecasting Tool",
+    impact: "<5% Prediction Error",
+    description: "Scoped and shipped a quantitative ML prototype predicting next-day equity prices with under 5% error — defined model requirements, validated results with stakeholders, and packaged findings into a Flask demo for non-technical audiences.",
+    tags: ["Python", "Random Forest", "XGBoost", "Flask"],
+    metrics: "<5% Prediction Error",
+    color: "from-rose-500/20 to-pink-500/20",
+    link: "https://github.com/Nstar9/AlphaForge-ML-Stock-Predictor"
   }
 ];
 
