@@ -14,16 +14,6 @@ const projects = [
     link: "https://github.com/Nstar9/HawkAI"
   },
   {
-    id: 6,
-    title: "Kahana — Oasis AI Browser Launch",
-    impact: "10K+ visits · 1.5K+ sign-ups in week 1",
-    description: "Led the launch of Oasis (an AI browser), securing a 'Featured Product' placement on Product Hunt. Defined the rollout and positioning, driving an estimated 10,000 site visits and 1,500+ initial user sign-ups in the first week. Translated complex GenAI APIs into direct engineering requirements to ship the MVP on time — managing scope and technical trade-offs for a stable release with zero critical launch-day bugs.",
-    tags: ["GenAI", "Product Launch", "GTM", "Product Hunt"],
-    metrics: "10K+ visits · 1.5K+ sign-ups",
-    color: "from-indigo-500/20 to-sky-500/20",
-    link: "https://kahana.io/"
-  },
-  {
     id: 1,
     title: "AI Onboarding Copilot",
     impact: "-50% Repetitive Tickets",
