@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import FeaturedProjects from "@/components/FeaturedProjects";
-import MoreProjects from "@/components/MoreProjects";
+
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
