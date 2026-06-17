@@ -14,6 +14,7 @@ const experiences = [
     id: 1,
     title: "Founder & Technical Lead",
     company: "Zeno (getzeno.io), Chicago, IL",
+    link: "https://getzeno.io/",
     dates: "Jul 2025 – Present",
     description: "• Built and launched AI-powered expense management SaaS from 0→1, achieving 90%+ accuracy and onboarding 200+ beta users within the first 3 months\n• Led end-to-end product development across 5 sprints, reducing time-to-market by 40% through rapid prototyping and weekly user feedback loops with 50+ early adopters\n• Architected full-stack platform (Python, PostgreSQL, AWS) engineered for 10K+ monthly projected transactions; gained validation from 50+ adopters to deliver a market-ready MVP for seed-funding"
   },
