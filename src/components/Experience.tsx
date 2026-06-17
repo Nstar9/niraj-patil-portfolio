@@ -85,7 +85,19 @@ const Experience = () => {
                         </h3>
                         <div className="flex items-center gap-2 text-primary font-medium mb-2">
                           <Building className="w-4 h-4" />
-                          {exp.company}
+                          {(exp as any).link ? (
+                            <a
+                              href={(exp as any).link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hover:underline"
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              {exp.company}
+                            </a>
+                          ) : (
+                            exp.company
+                          )}
                         </div>
                       </div>
                       <div className="flex items-center gap-2 text-muted-foreground text-sm">
