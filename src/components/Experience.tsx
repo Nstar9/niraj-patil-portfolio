@@ -6,8 +6,9 @@ const experiences = [
     id: 0,
     title: "AI Product Manager",
     company: "Kahana, Remote, USA",
+    link: "https://kahana.io/",
     dates: "May 2026 – Present",
-    description: "• Owned end-to-end product launch and Go-To-Market strategy for an AI-integrated browser — defined product positioning, success metrics, and launch sequencing that drove initial user adoption across target segments\n• Led cross-functional feature development by translating complex user needs and AI capabilities into prioritized engineering requirements, managing trade-offs between scope, timeline, and quality across engineering and design"
+    description: "• Led the launch of Oasis (an AI browser), securing a 'Featured Product' placement on Product Hunt. Defined the rollout and positioning, driving an estimated 10,000 site visits and 1,500+ initial user sign-ups in the first week.\n• Translated complex GenAI APIs into direct engineering requirements to ship the MVP on time. Managed scope and technical trade-offs, ensuring a stable release with zero critical launch-day bugs."
   },
   {
     id: 1,
