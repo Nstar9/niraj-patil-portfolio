@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download } from "lucide-react";
+import resumeAsset from "@/assets/Niraj_Patil_Resume.pdf.asset.json";
+
 
 const Hero = () => {
   return (
@@ -70,7 +72,7 @@ const Hero = () => {
               variant="outline" 
               size="sm" 
               className="hidden md:flex items-center gap-2"
-              onClick={() => window.open('/Niraj_Patil_Resume.pdf', '_blank')}
+              onClick={() => window.open(resumeAsset.url, '_blank')}
             >
               <Download size={16} />
               View Resume
