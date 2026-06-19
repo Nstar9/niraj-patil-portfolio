@@ -53,7 +53,7 @@ const Footer = () => {
               variant="outline" 
               size="xl" 
               className="border-border hover:border-primary/50"
-              onClick={() => window.open('/Niraj_Patil_Resume.pdf', '_blank')}
+              onClick={() => window.open(resumeAsset.url, '_blank')}
             >
               <Download className="mr-2 h-5 w-5" />
               Resume
