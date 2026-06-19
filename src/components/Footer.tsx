@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Download, Github, ExternalLink } from "lucide-react";
+import resumeAsset from "@/assets/Niraj_Patil_Resume.pdf.asset.json";
+
 
 const Footer = () => {
   return (
