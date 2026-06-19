@@ -138,7 +138,7 @@ const AiPrdTemplate = () => {
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                     <Button
                       variant="default"
-                      onClick={() => window.open("/Niraj_Patil_Resume.pdf", "_blank")}
+                      onClick={() => window.open(resumeAsset.url, "_blank")}
                       className="gap-2"
                     >
                       <Download className="w-4 h-4" /> Download Resume
