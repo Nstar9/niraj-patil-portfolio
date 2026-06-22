@@ -58,6 +58,16 @@ const Hero = () => {
                 About
               </a>
               <a 
+                href="#skills" 
+                className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                Skills
+              </a>
+              <a 
                 href="#contact" 
                 className="text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
                 onClick={(e) => {
