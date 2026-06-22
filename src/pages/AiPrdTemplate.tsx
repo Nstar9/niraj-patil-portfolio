@@ -133,7 +133,7 @@ const AiPrdTemplate = () => {
                     Want the resume behind this work?
                   </h2>
                   <p className="text-muted-foreground mb-6">
-                    Built by Niraj Patil, AI Product Manager — HawkAI, Zeno, Kahana.
+                    Built by Niraj Patil, Product Engineer — HawkAI, Zeno, Kahana.
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                     <Button
