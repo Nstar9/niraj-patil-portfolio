@@ -5,61 +5,65 @@ import resumeAsset from "@/assets/Niraj_Patil_Resume.pdf.asset.json";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="py-20 px-6 bg-background border-t border-border">
-      <div className="container mx-auto max-w-4xl">
-        <div className="text-center mb-12">
-          <h2 className="text-display mb-4 font-poppins">Let's Build Something Amazing</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your product vision into measurable impact? 
-            Let's discuss how we can drive growth together.
-          </p>
-        </div>
-
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-          <Button 
-            variant="hero"
-            size="xl" 
-            className="group"
-            onClick={() => window.open('mailto:bnirajpatil9@gmail.com', '_blank')}
-          >
-            <Mail className="mr-2 h-5 w-5" />
-            bnirajpatil9@gmail.com
-          </Button>
-          
-          <div className="flex items-center gap-4">
-            <Button 
-              variant="outline" 
-              size="xl" 
-              className="border-border hover:border-primary/50"
-              onClick={() => window.open('https://www.linkedin.com/in/nirajpatil01/', '_blank')}
+    <footer id="contact" className="py-24 px-6 bg-background border-t border-border">
+      <div className="container mx-auto max-w-5xl">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div>
+            <div className="text-sm uppercase tracking-[0.2em] text-primary font-medium mb-4">
+              Get in touch
+            </div>
+            <h2 className="text-display font-poppins leading-tight">
+              Have an idea worth <span className="text-secondary">shipping</span>?
+            </h2>
+          </div>
+          <div className="space-y-3">
+            <a
+              href="mailto:bnirajpatil9@gmail.com"
+              className="group flex items-center justify-between gap-4 p-5 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300"
             >
-              <Linkedin className="mr-2 h-5 w-5" />
-              LinkedIn
-              <ExternalLink className="ml-2 h-4 w-4" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="xl" 
-              className="border-border hover:border-primary/50"
-              onClick={() => window.open('https://github.com/Nstar9', '_blank')}
-            >
-              <Github className="mr-2 h-5 w-5" />
-              GitHub
-              <ExternalLink className="ml-2 h-4 w-4" />
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="xl" 
-              className="border-border hover:border-primary/50"
-              onClick={() => window.open(resumeAsset.url, '_blank')}
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Resume
-            </Button>
+              <div className="flex items-center gap-4">
+                <div className="p-2.5 rounded-lg bg-primary/10 text-primary">
+                  <Mail className="h-5 w-5" />
+                </div>
+                <div>
+                  <div className="text-xs text-muted-foreground">Email</div>
+                  <div className="font-medium text-foreground">bnirajpatil9@gmail.com</div>
+                </div>
+              </div>
+              <ExternalLink className="h-4 w-4 text-muted-foreground group-hover:text-primary transition-colors" />
+            </a>
+            <div className="grid grid-cols-3 gap-3">
+              <a
+                href="https://www.linkedin.com/in/nirajpatil01/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300"
+              >
+                <Linkedin className="h-5 w-5 text-primary" />
+                <span className="text-sm font-medium">LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/Nstar9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300"
+              >
+                <Github className="h-5 w-5 text-primary" />
+                <span className="text-sm font-medium">GitHub</span>
+              </a>
+              <a
+                href={resumeAsset.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300"
+              >
+                <Download className="h-5 w-5 text-primary" />
+                <span className="text-sm font-medium">Resume</span>
+              </a>
+            </div>
           </div>
         </div>
+
 
         {/* Footer Bottom */}
         <div className="border-t border-border pt-8">
