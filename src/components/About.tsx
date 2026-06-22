@@ -85,17 +85,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Tech Stack */}
-            <div>
-              <h3 className="text-title font-poppins font-semibold mb-4">Technical Stack</h3>
-              <div className="flex flex-wrap gap-2">
-                {["Python", "SQL", "AWS", "Figma", "Amplitude", "Mixpanel", "Jupyter", "Tableau", "Git", "Jira"].map((tech) => (
-                  <Badge key={tech} variant="outline" className="border-primary/30 text-primary hover:bg-primary/10">
-                    {tech}
-                  </Badge>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -62,6 +62,18 @@ const skillCategories = [
       "Documentation & Playbooks"
     ],
     color: "from-pink-500/20 to-rose-500/20"
+  },
+  {
+    title: "Product",
+    icon: Target,
+    skills: [
+      "Figma",
+      "Jira",
+      "A/B Testing",
+      "Technical Scoping",
+      "Cross-functional Execution"
+    ],
+    color: "from-indigo-500/20 to-blue-500/20"
   }
 ];
 
