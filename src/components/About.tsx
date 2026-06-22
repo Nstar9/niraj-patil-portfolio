@@ -16,7 +16,7 @@ const About = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-surface rounded-xl p-4 border border-border shadow-elegant">
-                <div className="text-lg font-bold text-primary">Tenaciously Optimistic</div>
+                <div className="text-lg font-bold text-secondary">Tenaciously Optimistic</div>
               </div>
             </div>
           </div>
