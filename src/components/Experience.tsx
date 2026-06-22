@@ -4,19 +4,19 @@ import { Building, Calendar } from "lucide-react";
 const experiences = [
   {
     id: 0,
-    title: "AI Product Manager",
+    title: "Product Engineer",
     company: "Kahana, Remote, USA",
     link: "https://kahana.io/",
     dates: "May 2026 – Present",
-    description: "• Led the launch of Oasis (an AI browser), securing a 'Featured Product' placement on Product Hunt. Defined the rollout and positioning, driving an estimated 10,000 site visits and 1,500+ initial user sign-ups in the first week.\n• Translated complex GenAI APIs into direct engineering requirements to ship the MVP on time. Managed scope and technical trade-offs, ensuring a stable release with zero critical launch-day bugs."
+    description: "• Worked directly inside the Oasis AI browser codebase alongside engineering — wrote and reviewed feature-level code while translating AI capabilities into technical requirements, resolving deployment blockers as they surfaced.\n• Owned the technical handoff between product intent and shipped code for the MVP launch, driving 10,000+ site visits and 1,500+ sign-ups in week one with zero critical launch-day bugs.\n• Acted as the direct technical point of contact between design and engineering — diagnosing integration gaps in real time and driving them to resolution across the full product surface."
   },
   {
     id: 1,
-    title: "Founder & Technical Lead",
+    title: "Founder & Full-Stack Engineer",
     company: "Zeno (getzeno.io), Chicago, IL",
     link: "https://getzeno.io/",
-    dates: "Jul 2025 – Present",
-    description: "• Built and launched AI-powered expense management SaaS from 0→1, achieving 90%+ accuracy and onboarding 200+ beta users within the first 3 months\n• Led end-to-end product development across 5 sprints, reducing time-to-market by 40% through rapid prototyping and weekly user feedback loops with 50+ early adopters\n• Architected full-stack platform (Python, PostgreSQL, AWS) engineered for 10K+ monthly projected transactions; gained validation from 50+ adopters to deliver a market-ready MVP for seed-funding"
+    dates: "Jul 2025 – May 2026",
+    description: "• Architected and deployed a full-stack AI fintech platform (Python/Flask, PostgreSQL, AWS S3, React) from 0→1, owning the entire lifecycle from technical discovery to processing 10K+ monthly transactions in production.\n• Built a document-parsing integration layer (Claude API OCR + LLM) with custom schema-mapping logic in Python/PostgreSQL to reliably standardize unstructured receipt and transaction data into a normalized format — reaching 90%+ extraction accuracy.\n• Designed a confidence-scoring and human-in-the-loop validation system to catch low-confidence extractions before they reached production data, maintaining data integrity for 200+ beta users."
   },
   {
     id: 2,
