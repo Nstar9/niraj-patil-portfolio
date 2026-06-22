@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, CheckCircle2, Download } from "lucide-react";
 import resumeAsset from "@/assets/Niraj_Patil_Resume.pdf.asset.json";
 
+const resumeUrl = new URL(resumeAsset.url, "https://niraj-architect-next.lovable.app").toString();
 
 const sections = [
   {
@@ -138,7 +139,7 @@ const AiPrdTemplate = () => {
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                     <Button
                       variant="default"
-                      onClick={() => window.open(resumeAsset.url, "_blank")}
+                      onClick={() => window.open(resumeUrl, "_blank")}
                       className="gap-2"
                     >
                       <Download className="w-4 h-4" /> Download Resume

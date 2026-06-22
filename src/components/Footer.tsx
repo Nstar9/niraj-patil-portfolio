@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Download, Github, ExternalLink } from "lucide-react";
 import resumeAsset from "@/assets/Niraj_Patil_Resume.pdf.asset.json";
 
+const resumeUrl = new URL(resumeAsset.url, "https://niraj-architect-next.lovable.app").toString();
 
 const Footer = () => {
   return (
@@ -52,7 +53,7 @@ const Footer = () => {
                 <span className="text-sm font-medium">GitHub</span>
               </a>
               <a
-                href={resumeAsset.url}
+                href={resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300"
