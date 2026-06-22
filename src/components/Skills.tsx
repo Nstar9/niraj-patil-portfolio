@@ -4,73 +4,71 @@ import { Target, BarChart3, Code, Users } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Product Management",
-    icon: Target,
+    title: "Languages & Frameworks",
+    icon: Code,
     skills: [
-      "Roadmap Planning",
-      "Backlog Prioritization",
-      "PRD & User Story Writing",
-      "Sprint Planning",
-      "Acceptance Criteria",
-      "OKRs",
-      "Product Positioning",
-      "GTM Strategy",
-      "Jira",
-      "Agile/Scrum"
+      "Python (Flask, FastAPI)",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "SQL",
+      "REST APIs"
     ],
     color: "from-blue-500/20 to-cyan-500/20"
   },
   {
-    title: "Data Science & Analytics",
+    title: "Integration & Data",
     icon: BarChart3,
     skills: [
-      "Python (Pandas, NumPy, Scikit-learn)",
-      "SQL",
-      "Statistical Analysis",
-      "Machine Learning (Random Forest, XGBoost)",
-      "A/B Testing",
-      "Feature Engineering",
-      "Time-Series Modeling",
-      "Causal Inference",
-      "Tableau"
+      "API Integration",
+      "Schema Mapping",
+      "Data Pipelines",
+      "Vector Search (MongoDB Atlas)",
+      "PostgreSQL",
+      "MongoDB"
     ],
     color: "from-emerald-500/20 to-teal-500/20"
   },
   {
-    title: "Engineering & Cloud",
-    icon: Code,
+    title: "AI & Agentic Systems",
+    icon: Target,
     skills: [
-      "AWS (S3, Lambda, Glue/PySpark, Athena)",
-      "Google Cloud",
-      "REST APIs",
-      "Flask",
-      "PostgreSQL",
-      "React",
-      "ETL Pipelines",
-      "GenAI/LLM Integration (Claude API, Gemini)",
-      "CI/CD (GitHub Actions)"
+      "LLM Integration (Claude, Gemini, Groq)",
+      "Multi-Agent Orchestration (MCP)",
+      "RAG",
+      "Agentic Systems"
     ],
     color: "from-violet-500/20 to-purple-500/20"
   },
   {
-    title: "Consulting & Leadership",
+    title: "Cloud & DevOps",
+    icon: Code,
+    skills: [
+      "AWS (S3, Lambda, Glue, Athena)",
+      "Google Cloud Run",
+      "Docker",
+      "CI/CD (GitHub Actions)"
+    ],
+    color: "from-amber-500/20 to-orange-500/20"
+  },
+  {
+    title: "Customer & Delivery",
     icon: Users,
     skills: [
       "Technical Discovery",
-      "Requirements Gathering",
-      "Stakeholder Management",
       "Solution Architecture",
-      "Feasibility Analysis",
-      "Cross-functional Collaboration"
+      "Stakeholder Management",
+      "Documentation & Playbooks"
     ],
-    color: "from-amber-500/20 to-orange-500/20"
+    color: "from-pink-500/20 to-rose-500/20"
   }
 ];
 
 
 const Skills = () => {
   return (
-    <section className="py-20 px-6 bg-gradient-surface">
+    <section id="skills" className="py-20 px-6 bg-gradient-surface">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-display mb-4 font-poppins">Skills & Technologies</h2>
