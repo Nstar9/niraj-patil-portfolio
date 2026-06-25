@@ -14,17 +14,6 @@ const projects = [
     link: "https://github.com/Nstar9/HawkAI"
   },
   {
-    id: 1,
-    title: "AI Onboarding Copilot",
-    impact: "-50% Repetitive Tickets",
-    description: "A full-cycle product plan for an AI assistant designed to automate new hire provisioning, accelerate productivity, and slash repetitive HR/IT support tickets.",
-    tags: ["Product Strategy", "PRD", "AI/ML", "Automation"],
-    metrics: "-50% Repetitive Tickets",
-    color: "from-blue-500/20 to-cyan-500/20",
-    link: "https://living-sink-0dd.notion.site/AI-Onboarding-Copilot-2736c5ae56df809f8c04d7cd475f6faa"
-  },
-
-  {
     id: 2,
     title: "Personalized RecSys-LLM Platform",
     impact: "+20% Pilot Engagement",
@@ -63,6 +52,16 @@ const projects = [
     metrics: "<5% Prediction Error",
     color: "from-rose-500/20 to-pink-500/20",
     link: "https://github.com/Nstar9/AlphaForge-ML-Stock-Predictor"
+  },
+  {
+    id: 1,
+    title: "AI Onboarding Copilot",
+    impact: "-50% Repetitive Tickets",
+    description: "A full-cycle product plan for an AI assistant designed to automate new hire provisioning, accelerate productivity, and slash repetitive HR/IT support tickets.",
+    tags: ["Product Strategy", "PRD", "AI/ML", "Automation"],
+    metrics: "-50% Repetitive Tickets",
+    color: "from-blue-500/20 to-cyan-500/20",
+    link: "https://living-sink-0dd.notion.site/AI-Onboarding-Copilot-2736c5ae56df809f8c04d7cd475f6faa"
   }
 ];
 
