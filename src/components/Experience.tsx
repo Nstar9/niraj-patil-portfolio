@@ -8,7 +8,7 @@ const experiences = [
     company: "Kahana, Remote, USA",
     link: "https://kahana.io/",
     dates: "May 2026 – Present",
-    description: "• Worked directly inside the Oasis AI browser codebase alongside engineering — wrote and reviewed feature-level code while translating AI capabilities into technical requirements, resolving deployment blockers as they surfaced.\n• Owned the technical handoff between product intent and shipped code for the MVP launch, driving 10,000+ site visits and 1,500+ sign-ups in week one with zero critical launch-day bugs.\n• Acted as the direct technical point of contact between design and engineering — diagnosing integration gaps in real time and driving them to resolution across the full product surface."
+    description: "• Worked directly inside the Oasis AI browser codebase alongside engineering — wrote and reviewed feature-level code while translating AI capabilities into technical requirements, resolving deployment blockers as they surfaced.\n• Owned the technical handoff between product intent and shipped code for the MVP launch, contributing to a #4 Product Hunt launch with 295 upvotes and 7,000+ trusted users worldwide with zero critical launch-day bugs.\n• Acted as the direct technical point of contact between design and engineering — diagnosing integration gaps in real time and driving them to resolution across the full product surface."
   },
   {
     id: 1,
